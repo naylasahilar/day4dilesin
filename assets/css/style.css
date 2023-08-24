@@ -8,14 +8,34 @@ a {
     padding: 10px;
     margin: 15px;
 }
-h1{
-    color: cadetblue;
-    background-color: cornsilk;
-}
+/* contoh selector atribut */
 input[type=submit] {
     color: darksalmon;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: aliceblue;
     border-radius: 5em;
+}
+/* contoh selector class */
+.sosmed {
+    background-color: aliceblue;
+    height: fit-content;
+}
+.hobi {
+    color: darkolivegreen;
+}
+/* contoh selector id */
+#title {
+    color: lightcoral;
+    background-color: lightskyblue;
+}
+/* contoh pseudo element */
+#title::first-letter {
+    color: darkolivegreen;
+    font-size: 40px;
+}
+/* contoh pseudo class */
+.formulir a:hover {
+    color: cornsilk;
+    font-size: larger;
 }
